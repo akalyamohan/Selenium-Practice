@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="ExtentReport.Listeners_custom"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="ExtentReport.Test_extentreport">
+        <methods>
+          <include name="browserstart"/>
+          <include name="button"/>
+          <include name="Link_validation"/>
+        </methods>
+      </class> <!-- ExtentReport.Test_extentreport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

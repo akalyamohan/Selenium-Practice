@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Yahoo App Test">
+  
+  <parameter name="firstname" value="akalya"/>
+  <parameter name="lastname" value="mohan"/>
+  <parameter name="userid" value="akalyamohan"/>
+  <parameter name="password" value="ponni"/>
+    <classes>
+      <class name="Yahoo_testng_xml_parameter.yahoo_reg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
