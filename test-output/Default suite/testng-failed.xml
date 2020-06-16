@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ExtentReport.Test_etentreport1">
+      <class name="Listeners.Screenshot">
         <methods>
-          <include name="mentorship_page"/>
+          <include name="takescreenshot"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- ExtentReport.Test_etentreport1 -->
+      </class> <!-- Listeners.Screenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
